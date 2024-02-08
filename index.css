@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1f2937;
+  /* background-color: #1f2937; */
 }
 
 nav {
@@ -36,7 +36,74 @@ nav li a {
   color: #f9faf8;
 }
 
+/* section intro */
 
+#intro {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* second section */
+
+.image-container {
+  display: flex;
+}
+
+.image {
+  margin-right: 20px; /* Adjust as needed for spacing */
+}
+
+.image img {
+  width: 200px; /* Adjust image width as needed */
+  height: auto;
+}
+
+.image p {
+  margin-top: 5px; /* Adjust as needed for spacing between image and text */
+}
+
+/* Style for the section */
+/* section {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+} */
+
+/* Style for the main title */
+/* h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+} */
+
+/* Style for the subtext */
+/* p {
+  font-size: 14px;
+  color: #666;
+} */
+
+/* Style for the image */
+/* img {
+  display: block;
+  margin-top: 20px;
+  border-radius: 5px;
+} */
 
 /* ul {
   list-style-type: none;
